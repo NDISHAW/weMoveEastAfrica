@@ -20,8 +20,8 @@ body{
     font-size: 1em;
 }
 #googleMap{
-    width: 80%;
-    height:500px;
+    width: 90%;
+    height:90vh;
     margin: 20px auto;
 }
 #output{
@@ -56,21 +56,7 @@ body{
 
 
 
-.description {
-	left: 50%;
-	position: absolute;
-	top: 45%;
-	transform: translate(-50%, -55%);
-	text-align: center;
-}
-.description h2 {
-	color: #57ca1d;
-}
-.description p {
-	color: rgb(39, 2, 2);
-	font-size: 30rem;
-	line-height: 5vh;
-}
+
 .features {
 	margin: 4em auto;
 	padding: 1em;
