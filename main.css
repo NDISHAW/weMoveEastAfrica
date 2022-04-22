@@ -1,5 +1,5 @@
 body{
-    color:green;
+    color:black;
     font-family: "Poppins", sans-serif;
 }
 .jumbotron{
@@ -28,4 +28,73 @@ body{
     text-align: center;
     font-size: 2em;
     margin: 10px;
+}
+.bgimage {
+  width:100%;
+  height:1000px;
+  background: url(./Images/crest.jpg);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:contain;
+  background-attachment: fixed;
+}
+.bgimage h5 {
+  color:white;
+  text-shadow:2px 2px #333;
+}
+#hero ,h1{
+    padding-top: 5vh;
+    color: rgb(105, 230, 105);
+    font-size: large,bold;
+    font-weight: 1000;
+}
+#logo1{
+    color: black;
+    font-size: large,bold;
+    font-family:"Poppins", sans-serif;
+}
+
+
+
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+.description h2 {
+	color: #57ca1d;
+}
+.description p {
+	color: rgb(39, 2, 2);
+	font-size: 30rem;
+	line-height: 5vh;
+}
+.features {
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+}
+.feature-title {
+	color: #333;
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.features img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+}
+.page-footer {
+    background-color: green;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+.footer-copyright {
+    color: grey;
+    padding: 40px 0;
 }

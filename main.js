@@ -1,13 +1,16 @@
 //Set defult location on map
-let myLatLng={lat: 1.9577,lng: 37.2972};
-let mapOptions={
-    center:myLatLng,
-    zoom:7,
+let myLatLng = {
+    lat: 1.9577,
+    lng: 37.2972
+};
+let mapOptions = {
+    center: myLatLng,
+    zoom: 7,
     mapTypeId: google.maps.MapTypeId.ROADMAP
 };
 
 //CREATE MAP
-let map = new google.maps.Map(document.getElementById(`googleMap`), mapOptions);
+let map = new google.maps.Map(document.getElementById('googleMap'), mapOptions);
 //CREATE A DIRECTIONS SERVICE
 let directionsService = new google.maps.DirectionsService();
 //render object to display route
@@ -17,12 +20,12 @@ directionsDisplay.setMap(map);
 function calcRoute() {
     //create a request
     let request = {
-        origin: document.getElementById("from").value,
-        destination: document.getElementById("to").value,
+        origin: document.getElementById('from').value,
+        destination: document.getElementById('to').value,
         travelMode: google.maps.TravelMode.DRIVING,
         unitSystem: google.maps.UnitSystem.IMPERIAL
     }
-    directionsService.route(request,  (result, status)=> {
+    directionsService.route(request, (result, status) => {
         if (status == google.maps.DirectionsStatus.OK) {
             //getting distance and time
             const output = document.querySelector('#output');
@@ -34,12 +37,13 @@ function calcRoute() {
     });
 
 }
-let options={
-    types:[`(cities)`]
+let options = {
+    types: ['(cities)']
 }
 let input1 = new google.maps.places.Autocomplete(
     document.getElementById('from'));
-let input2 = new google.maps.places.Autocomplete(document.getElementById(`to`));
+let input2 = new google.maps.places.Autocomplete(
+    document.getElementById('to'));
 
 // //Set autoComplete on the inputs
 // document.addEventListener(`DOMContentLoaded`, () => {
