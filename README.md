@@ -1,9 +1,10 @@
 # weMoveEastAfrica
 ---------------------
 
- * Introduction
- * Requirements
- * LANGUAGES USED
+ * Introduction.
+ * Requirements.
+ * LANGUAGES USED.
+ * Accessibility.
 
 
  ## INTRODUCTION
@@ -20,3 +21,5 @@ It uses distance matrix api,places api, direction api and routing api.
 3. JQUERY.
 4. BOOTSTRAP.
 
+## ACCESIBILITY AND SETUP
+Visit the deployed application using the following link "https://ndishaw.github.io/weMoveEastAfrica/"
