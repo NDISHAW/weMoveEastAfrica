@@ -1,5 +1,5 @@
 body{
-    color:black;
+    color:#006400;
     font-family: "Poppins", sans-serif;
 }
 .jumbotron{
@@ -44,7 +44,7 @@ body{
 }
 #hero ,h1{
     padding-top: 5vh;
-    color: rgb(105, 230, 105);
+    color: #006400;
     font-size: large,bold;
     font-weight: 1000;
 }
@@ -63,8 +63,8 @@ body{
 	position: relative;
 }
 .feature-title {
-	color: #333;
-	font-size: 1.3rem;
+	color: #006400;
+	font-size: 4rem;
 	font-weight: 700;
 	margin-bottom: 20px;
 	text-transform: uppercase;
@@ -73,7 +73,7 @@ body{
 	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-	margin-bottom: 16px;
+	margin-bottom: 10px;
 }
 .page-footer {
     background-color: green;
@@ -83,4 +83,36 @@ body{
 .footer-copyright {
     color: grey;
     padding: 40px 0;
+}
+
+.img1{
+    background-image: url("/Images/CHAIR.jpg");
+}
+.img2{
+    background-image: url("/Images/crest.jpg");
+}
+.img3{
+    background-image: url("/Images/pexels-agung-pandit-wiguna-3401403.jpg");
+}
+.img4{
+    background-image: url("/Images/barry-zhou-khjwIW9HH5s-unsplash.jpg");
+}
+
+
+.gallery div a{
+    color: white;
+    font-size: 20px;
+    font-family: 'M PLUS 1', sans-serif;
+    background-color: rgb(204, 201, 201);
+    display: block;
+    padding: 5px 15px;
+}
+.gallery div:hover{
+    opacity: 0.7;
+    transform: scale(0.98);
+    background-color: linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.4));
+}
+.gallery div a:hover{
+    transform: scale(1.3);
+    background-color: orange;
 }
